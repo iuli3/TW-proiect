@@ -1,0 +1,77 @@
+/* Titlu */
+h3.text-center {
+  color: #0A1828;
+  font-weight: 600;
+}
+
+/* Card stilizat */
+.custom-card {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.custom-card h5 {
+  font-weight: 600;
+  color: #0A1828;
+}
+
+.custom-card p {
+  color: #333;
+  margin-bottom: 6px;
+}
+
+/* Buton Aprobă */
+.btn-approve {
+  background-color: #4ECCA3;
+  border: 1px solid #4ECCA3!important;
+
+  border: none;
+  font-weight: 500;
+  color: white;
+  padding: 6px 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-approve:hover {
+  background-color: white;
+  color: #4ECCA3  ;
+  border: 1px solid #4ECCA3!important;
+}
+
+/* Buton Respinge */
+.btn-reject {
+  background-color: #f27171;
+  border: none;
+  font-weight: 500;
+  color: white;
+  padding: 6px 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-reject:hover {
+  background-color: #720b0b;
+}
+
+/* Spinner color */
+.text-center .spinner-border {
+  color: #4ECCA3;
+}
+
+.search-input {
+  max-width: 400px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #0A1828;
+  background-color: white;
+  transition: border 0.2s ease-in-out;
+}
+
+
+.search-input:focus {
+  border-color: #4ECCA3;
+  box-shadow: 0 0 0 0.15rem rgba(78, 204, 163, 0.25);
+  outline: none;
+}

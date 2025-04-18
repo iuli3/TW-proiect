@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "67f39157c06ccf8e0996db4f"
+  },
+  "user": {
+    "$oid": "67eea7d9eee922eb1b83a627"
+  },
+  "message": "Cererea ta de organizator a fost respinsă. Te rugăm să încerci mai târziu.",
+  "seen": false,
+  "createdAt": {
+    "$date": "2025-04-07T08:48:23.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f39342c06ccf8e0996df7d"
+  },
+  "user": {
+    "$oid": "67f39304c06ccf8e0996de90"
+  },
+  "message": "Cererea ta de organizator a fost aprobată! 🎉",
+  "seen": false,
+  "createdAt": {
+    "$date": "2025-04-07T08:56:34.036Z"
+  },
+  "__v": 0
+}]

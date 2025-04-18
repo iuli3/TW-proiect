@@ -1,0 +1,51 @@
+.organizer-promo {
+  top: 20px;
+  bottom: 5px;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  color: white;
+  position: relative;
+  text-align: center;
+  height: 600px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.overlay {
+  background-color: rgba(10, 24, 40, 0.85); /* fundal întunecat cu opacitate */
+  padding: 60px 20px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(78, 204, 163, 0.3);
+}
+
+.organizer-promo h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #4ECCA3;
+  margin-bottom: 15px;
+}
+
+.organizer-promo p {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+
+.promo-button {
+  background-color: #FFB703;
+  color: #0A1828;
+  font-weight: 600;
+  padding: 14px 35px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.promo-button:hover {
+  background-color: #e6a100;
+  transform: scale(1.05);
+}

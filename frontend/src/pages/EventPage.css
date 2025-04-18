@@ -1,0 +1,202 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f3f0ed; /* Crem închis */
+  margin: 0;
+  padding: 0;
+}
+
+/* General container */
+.event-container {
+ 
+  max-width: 13 00px;
+  margin: auto;
+  padding: 20px;
+  color: #0A1828; /* Negru */
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner */
+.event-banner {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.event-overlay {
+  background: rgba(10, 24, 40, 0.6);
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.event-page-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  color: #4ECCA3; /* Verde mentă */
+  font-weight: bold;
+}
+
+.event-meta {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: #FFFFFF;
+}
+
+/* Descriere eveniment și secțiuni */
+.event-description-card {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #4ECCA3;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.05);
+}
+
+.event-description {
+  white-space: pre-line;
+}
+
+/* Locație */
+.event-location-card {
+  background: #FFFFFF;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: #0A1828;
+  border: 2px solid #4ECCA3;
+}
+
+/* Lista de bilete */
+.list-group-item {
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #4ECCA3;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Informații bilete */
+.ticket-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.ticket-type {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ticket-name {
+  font-weight: 600;
+  color: #0A1828;
+  margin-bottom: 2px;
+}
+
+.ticket-price {
+  font-size: 0.9rem;
+  color: #4ECCA3;
+}
+
+/* Selector cantitate */
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.quantity-number {
+  min-width: 35px;
+  padding: 6px 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-weight: 500;
+}
+
+/* Buton cumpărare */
+.buy-tickets-button {
+  display: block;
+  margin: 25px auto 10px auto;
+  background-color: #4ECCA3;
+  color: white;
+  padding: 12px 30px;
+  border: 2px solid #4ECCA3;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.buy-tickets-button:hover {
+  background-color: white;
+  color: #4ECCA3;
+  transform: scale(1.05);
+}
+
+/* Buton "Adaugă la favorite" cu roz */
+button.btn-outline-dark,
+button[variant="outline-dark"] {
+  color: #D36B9E;
+  border-color: #D36B9E;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+button.btn-outline-dark:hover,
+button[variant="outline-dark"]:hover {
+  background-color: #D36B9E;
+  color: white;
+  transform: scale(1.03);
+}
+
+/* Buton organizator */
+.organizer-button {
+  color: #0A1828;
+  border-color: #4ECCA3;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.organizer-button:hover {
+  background-color: #4ECCA3;
+  color: #FFFFFF;
+  border-color: #4ECCA3;
+  transform: translateY(-2px);
+}
+
+/* Buton editare */
+.edit-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 10px 12px;
+  color: #0A1828;
+  background-color: #FFFFFF;
+  border: 1px solid #4ECCA3;
+  transition: all 0.3s ease-in-out;
+}
+
+.edit-button:hover {
+  background-color: #4ECCA3;
+  color: #FFFFFF;
+  border-color: #4ECCA3;
+}

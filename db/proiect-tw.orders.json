@@ -1,0 +1,359 @@
+[{
+  "_id": {
+    "$oid": "67e3be559680fa490a453f2d"
+  },
+  "user": {
+    "$oid": "67d15c137e38e32149317759"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67da9bf28643abc7014c8f3d"
+      },
+      "ticketType": "Cat. A",
+      "quantity": 1,
+      "price": 149.9,
+      "_id": {
+        "$oid": "67e3be559680fa490a453f2e"
+      }
+    },
+    {
+      "event": {
+        "$oid": "67da9bf28643abc7014c8f3d"
+      },
+      "ticketType": "Cat. B",
+      "quantity": 1,
+      "price": 99.9,
+      "_id": {
+        "$oid": "67e3be559680fa490a453f2f"
+      }
+    }
+  ],
+  "total": 249.8,
+  "createdAt": {
+    "$date": "2025-03-26T08:44:05.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e3bfe49680fa490a453f3f"
+  },
+  "user": {
+    "$oid": "67d15c137e38e32149317759"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67da9e8daaee42553c21eb94"
+      },
+      "ticketType": "ACCES GENERAL",
+      "quantity": 2,
+      "price": 30,
+      "_id": {
+        "$oid": "67e3bfe49680fa490a453f40"
+      }
+    }
+  ],
+  "total": 60,
+  "createdAt": {
+    "$date": "2025-03-26T08:50:44.701Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e3c0b29680fa490a453f50"
+  },
+  "user": {
+    "$oid": "67d15c137e38e32149317759"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67da9e11aaee42553c21eb93"
+      },
+      "ticketType": "ACCES GENERAL",
+      "quantity": 2,
+      "price": 30,
+      "_id": {
+        "$oid": "67e3c0b29680fa490a453f51"
+      }
+    }
+  ],
+  "total": 60,
+  "createdAt": {
+    "$date": "2025-03-26T08:54:10.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e3c1af9680fa490a453f61"
+  },
+  "user": {
+    "$oid": "67d15c137e38e32149317759"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67da9ecfaaee42553c21eb95"
+      },
+      "ticketType": "PRE-SALE - RECYCLE BIN",
+      "quantity": 1,
+      "price": 25,
+      "_id": {
+        "$oid": "67e3c1af9680fa490a453f62"
+      }
+    }
+  ],
+  "total": 25,
+  "createdAt": {
+    "$date": "2025-03-26T08:58:23.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e3c3d69680fa490a453f84"
+  },
+  "user": {
+    "$oid": "67d15c137e38e32149317759"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67d7bebabd22340c5477cd69"
+      },
+      "ticketType": "Spectacol FITT - Final Release",
+      "quantity": 1,
+      "price": 25,
+      "_id": {
+        "$oid": "67e3c3d69680fa490a453f85"
+      }
+    },
+    {
+      "event": {
+        "$oid": "67d7bebabd22340c5477cd69"
+      },
+      "ticketType": "After-party - Final Release",
+      "quantity": 2,
+      "price": 25,
+      "_id": {
+        "$oid": "67e3c3d69680fa490a453f86"
+      }
+    },
+    {
+      "event": {
+        "$oid": "67d7bebabd22340c5477cd69"
+      },
+      "ticketType": "Full Access - Final Release",
+      "quantity": 1,
+      "price": 40,
+      "_id": {
+        "$oid": "67e3c3d69680fa490a453f87"
+      }
+    }
+  ],
+  "total": 115,
+  "createdAt": {
+    "$date": "2025-03-26T09:07:34.225Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea491d5ea55bf6a0f35270"
+  },
+  "user": {
+    "$oid": "67d15c137e38e32149317759"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67da9ecfaaee42553c21eb95"
+      },
+      "ticketType": "PRE-SALE - RECYCLE BIN",
+      "quantity": 1,
+      "price": 25,
+      "_id": {
+        "$oid": "67ea491d5ea55bf6a0f35271"
+      }
+    }
+  ],
+  "total": 25,
+  "createdAt": {
+    "$date": "2025-03-31T07:49:49.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea7b7ef6769b537d6258a6"
+  },
+  "user": {
+    "$oid": "67d15c137e38e32149317759"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67da9ff6e89dc0717e48837e"
+      },
+      "ticketType": "Cat. A Presale",
+      "quantity": 1,
+      "price": 39.9,
+      "_id": {
+        "$oid": "67ea7b7ef6769b537d6258a7"
+      }
+    },
+    {
+      "event": {
+        "$oid": "67da9ff6e89dc0717e48837e"
+      },
+      "ticketType": "Cat. B Presale",
+      "quantity": 1,
+      "price": 29.9,
+      "_id": {
+        "$oid": "67ea7b7ef6769b537d6258a8"
+      }
+    },
+    {
+      "event": {
+        "$oid": "67da9ff6e89dc0717e48837e"
+      },
+      "ticketType": "Cat. C Presale",
+      "quantity": 4,
+      "price": 19.9,
+      "_id": {
+        "$oid": "67ea7b7ef6769b537d6258a9"
+      }
+    }
+  ],
+  "total": 149.39999999999998,
+  "createdAt": {
+    "$date": "2025-03-31T11:24:46.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eecc8dad0e4691619c04a0"
+  },
+  "user": {
+    "$oid": "67eea7d9eee922eb1b83a627"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67eec5d552dc514e4a92339c"
+      },
+      "ticketType": "Acces general",
+      "quantity": 2,
+      "price": 50,
+      "_id": {
+        "$oid": "67eecc8dad0e4691619c04a1"
+      }
+    }
+  ],
+  "total": 100,
+  "createdAt": {
+    "$date": "2025-04-03T17:59:41.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f8b4591b4d2098cc90076a"
+  },
+  "user": {
+    "$oid": "67eea7d9eee922eb1b83a627"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67d7bf43bd22340c5477cd6a"
+      },
+      "ticketType": "Early Bird",
+      "quantity": 1,
+      "price": 20,
+      "_id": {
+        "$oid": "67f8b4591b4d2098cc90076b"
+      }
+    },
+    {
+      "event": {
+        "$oid": "67f63ebadb97307bc77ad537"
+      },
+      "ticketType": "Categoria A - Earlybird",
+      "quantity": 1,
+      "price": 97.14,
+      "_id": {
+        "$oid": "67f8b4591b4d2098cc90076c"
+      }
+    },
+    {
+      "event": {
+        "$oid": "67f63ebadb97307bc77ad537"
+      },
+      "ticketType": "VIP",
+      "quantity": 1,
+      "price": 136.14,
+      "_id": {
+        "$oid": "67f8b4591b4d2098cc90076d"
+      }
+    },
+    {
+      "event": {
+        "$oid": "67f63ebadb97307bc77ad537"
+      },
+      "ticketType": "Categoria B - Earlybird",
+      "quantity": 1,
+      "price": 77.14,
+      "_id": {
+        "$oid": "67f8b4591b4d2098cc90076e"
+      }
+    },
+    {
+      "event": {
+        "$oid": "67f63ebadb97307bc77ad537"
+      },
+      "ticketType": "Persoane cu dizabilități",
+      "quantity": 1,
+      "price": 0,
+      "_id": {
+        "$oid": "67f8b4591b4d2098cc90076f"
+      }
+    }
+  ],
+  "total": 330.41999999999996,
+  "createdAt": {
+    "$date": "2025-04-11T06:19:05.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fe22b9dc5925617a267e54"
+  },
+  "user": {
+    "$oid": "67eea7d9eee922eb1b83a627"
+  },
+  "items": [
+    {
+      "event": {
+        "$oid": "67f63cb7db97307bc77ad532"
+      },
+      "ticketType": "Presale",
+      "quantity": 1,
+      "price": 31.79,
+      "_id": {
+        "$oid": "67fe22b9dc5925617a267e55"
+      }
+    }
+  ],
+  "total": 31.79,
+  "createdAt": {
+    "$date": "2025-04-15T09:11:21.345Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,104 @@
+.all-events-card {
+  height: 100%;
+  min-height: 370px; /* poți ajusta înălțimea minimă după nevoi */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.all-events-card:hover {
+  transform: scale(1.02);
+}
+
+.all-events-img-wrapper {
+  height: 180px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.all-events-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.all-events-card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.all-events-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;  /* maximum 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.all-events-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  flex-grow: 1;
+}
+
+.all-events-info p {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /* taie după 2 linii inclusiv pentru locații lungi */
+}
+
+.all-events-icon {
+  margin-right: 8px;
+  color: #4ecca3;
+  display: inline-block;
+}
+
+.all-events-pagination-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #4ECCA3;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.all-events-pagination-button:hover {
+  background-color: #3DBF92;
+  transform: scale(1.05);
+}
+
+.all-events-pagination-button:disabled {
+  background-color: #A3D6D0;
+  cursor: not-allowed;
+}
+
+.all-events-pagination-info {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0A1828;
+  margin-top: 15px;
+  text-align: center;
+}

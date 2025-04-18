@@ -1,0 +1,48 @@
+.organizer-card {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .organizer-card:hover {
+    transform: scale(1.02);
+  }
+
+  .organizer-search input {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    font-size: 1rem;
+  }
+  
+  
+  .organizer-avatar-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .text-mint {
+    color: #4ECCA3;
+  }
+  
+  .btn-outline-mint {
+    border: 2px solid #4ECCA3;
+    color: #4ECCA3;
+    font-weight: 500;
+    transition: 0.3s ease;
+    padding: 6px 14px;
+  }
+  
+  .btn-outline-mint:hover {
+    background-color: #4ECCA3;
+    color: white;
+  }
+  

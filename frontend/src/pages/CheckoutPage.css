@@ -1,0 +1,19 @@
+.checkout-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1eee7;
+  }
+  
+  .checkout-container {
+    flex-grow: 1;
+  }
+  
+  .footer-bar {
+    background-color: #0A1828;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+  }
+  

@@ -1,0 +1,393 @@
+/* === GENERAL NAVBAR === */
+.navbar-custom {
+    background-color: #FFFFFF !important;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Rasa", system-ui;
+    font-size: small;
+    height: 60px;
+    color: #000000;
+    border-color: transparent !important    ;
+}
+
+.navbar-custom img {
+    width: 100px;
+    height: 60px;
+    margin-right: 20px;
+    transition: none;
+}
+
+.fixed-navbar {
+    height: 100px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-right: 50px;
+    color: #000000 !important;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #4ECCA3 !important;
+    transform: scale(1.1);
+}
+
+.navbar-custom .me-auto {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-logo {
+    height: 55px !important;
+    width: 70px !important;
+    margin-right: 10px;
+    margin-left: -100px;
+}
+
+.nav-spacing {
+    display: flex;
+    gap: 50px;
+}
+
+.section-divider {
+    height: 8px;
+    background: linear-gradient(to right, #4ECCA3, #BFA181);
+    border: none;
+}
+
+/* === NAV LINKS === */
+.custom-nav-link {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.25rem !important;
+    padding: 5px 10px;
+    margin-right: 25px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.custom-nav-link:hover {
+    color: #4ECCA3;
+    transform: scale(1.1);
+}
+
+/* === DROPDOWN GENERAL === */
+.dropdown-menu {
+    background-color: #F8F9FA !important;
+    border: none !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 8px 0;
+    border-radius: 10px;
+}
+
+.dropdown-item {
+    color: #000000 !important;
+    padding: 10px 15px;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.dropdown-item:hover {
+    background-color: #4ECCA3 !important;
+    color: #FFFFFF !important;
+    transform: scale(1.1);
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+/* === "Contul Meu" DESKTOP === */
+.dropdown-toggle.my-account {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 10px !important;
+    font-weight: bold;
+    color: #000000 !important   ;
+    border-radius: 25px;
+}
+
+.dropdown-toggle.my-account:hover {
+    color: #4ECCA3 !important;
+    background: transparent !important;
+    border-color: transparent !important;
+}
+
+
+.my-account{
+    color: #000000 !important;
+    border-color: transparent !important;
+    font-weight: bold   ;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+.my-account:hover{
+    color: #4ECCA3 !important;
+    background: transparent !important;
+    border-color: transparent !important;
+    transform: scale(1.1);
+    font-size: bold;
+}
+
+
+
+/* === "Contul Meu" IN OFFCANVAS === */
+.offcanvas-body .dropdown-toggle.my-account {
+    background-color: #4ECCA3 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 10px 15px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: none !important;
+    border: none !important;
+    top: 0px;
+}
+
+.offcanvas-body .dropdown-toggle.my-account:hover,
+.offcanvas-body .dropdown-toggle.my-account:focus {
+    background-color: #40bba0 !important;
+    color: #ffffff !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* === CART BUTTON === */
+.cart-button {
+    border: none;
+    background: transparent !important;
+    font-size: 18px;
+    color: #000000;
+    transition: all 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.cart-button:hover {
+    color: #4ECCA3 !important;
+    transform: scale(1.3);
+}
+
+/* === CART BADGE === */
+.cart-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: #4ECCA3;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === USER WRAPPERS === */
+.user-cart-wrapper {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-right: 10px;
+}
+
+.nav-item-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    height: 70px;
+    padding: 0 8px;
+}
+
+.nav-item-wrapper .dropdown-toggle,
+.nav-item-wrapper .btn {
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    padding: 0 10px !important;
+    font-size: 16px;
+}
+
+.nav-item-wrapper .dropdown-toggle > svg,
+.nav-item-wrapper .btn > svg {
+    font-size: 18px;
+}
+
+.nav-item-fix {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+    height: 70px !important;
+    padding: 0 12px;
+    font-size: 16px;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.nav-item-fix a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* === BURGER TOGGLER BUTTON === */
+.navbar-toggler {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    padding: 0.5rem;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 991px) {
+    .navbar-brand {
+        margin-right: auto;
+    }
+
+    .dropdown,
+    .my-account,
+    .position-relative {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .offcanvas-body .nav-link {
+        font-size: 20px !important;
+        margin-bottom: 10px;
+    }
+
+    .offcanvas-body .dropdown-toggle,
+    .offcanvas-body .btn {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .offcanvas-body .dropdown-menu {
+        width: 100%;
+    }
+
+    .toggle-only-mobile {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-custom {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1050;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+        padding-top: 70px;
+    }
+}
+
+/* === Dropdown în OFFCANVAS mai frumos === */
+.offcanvas-body .dropdown {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .offcanvas-body .dropdown-toggle.my-account {
+    background-color: #4ECCA3 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    border-radius: 12px 12px 0 0;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .offcanvas-body .dropdown-toggle.my-account:hover,
+  .offcanvas-body .dropdown-toggle.my-account:focus {
+    background-color: #3fb191 !important;
+    color: #ffffff !important;
+  }
+  
+  .offcanvas-body .dropdown-menu {
+    padding: 0;
+    border-radius: 0 0 12px 12px;
+    border: none !important;
+    box-shadow: none !important;
+    margin-top: 0;
+  }
+  
+  .offcanvas-body .dropdown-menu .dropdown-item {
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000 !important;
+    border-top: 1px solid #eee;
+    transition: background-color 0.3s ease;
+  }
+  
+  .offcanvas-body .dropdown-menu .dropdown-item:first-child {
+    border-top: none;
+  }
+  
+  .offcanvas-body .dropdown-menu .dropdown-item:hover {
+    background-color: #f2f2f2;
+    color: #000000 !important;
+  }
+
+
+  .btn-signin-offcanvas {
+    background-color: #ffffff;
+    color: #0A1828;
+    font-weight: bold;
+    border: 2px solid #4ECCA3;
+    border-radius: 12px;
+    padding: 12px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-signin-offcanvas:hover {
+    background-color: #4ECCA3;
+    color: #ffffff;
+    border-color: #4ECCA3;
+    text-decoration: none;
+  }
+  
+  

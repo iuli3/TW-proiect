@@ -1,0 +1,244 @@
+.org-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* ====== Buton Înapoi suprapus pe video ====== */
+.back-button-container {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 10;
+}
+
+.back-button {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 2px solid #4ECCA3;
+  color: #4ECCA3;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background-color: #4ECCA3;
+  color: white;
+  border-color: #4ECCA3;
+}
+
+/* ====== Secțiune pași ====== */
+.steps-container {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.steps-title {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.steps-subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #4ECCA3;
+}
+
+.steps-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.step-flip-card {
+  background: transparent;
+  width: 240px;
+  height: 260px;
+  perspective: 1000px;
+}
+
+.step-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.step-flip-card:hover .step-flip-inner {
+  transform: rotateY(180deg);
+}
+
+.step-front,
+.step-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  background-color: white;
+}
+
+.step-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #4ECCA3;
+}
+
+.step-back {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.step-front.highlight {
+  background-color: #f4fffd;
+  border: 1px solid #b6f2e3;
+}
+
+.step-back.highlight {
+  background-color: #e6fff7;
+}
+
+/* ====== Contact și formular ====== */
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-section,
+.form-section {
+  flex: 1;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  min-width: 320px;
+  border: 2px solid #4ECCA3; /* Adăugare border verde pentru secțiuni */
+}
+
+.contact-section h2,
+.form-section h2 {
+  font-size: 24px;
+  color: #BFA181; /* Culoare auriu pentru titluri */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-section p,
+.form-section p {
+  font-size: 15px;
+  color: #444;
+}
+
+.form-title {
+  font-weight: bold;
+  color: #4ECCA3;
+  margin-bottom: 10px;
+}
+
+.form-subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.form-group .form-label {
+  font-weight: 500;
+  color: #0a1828;
+}
+
+.form-group .form-control {
+  border: 2px solid grey ; /* Border verde pentru inputuri */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.form-group .form-control:focus {
+  border-color: #BFA181; /* Auriu când focus */
+  box-shadow: 0 0 5px rgba(191, 161, 129, 0.6); /* Efect de focus */
+}
+
+.btn-submit {
+  background-color: #4ECCA3!important;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: white;
+  color: #4ECCA3;
+  border: 2px solid #4ECCA3;
+  transform: scale(1.02);
+}
+
+.contact-gif-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-gif {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  border: 2px solid #BFA181; /* Border auriu pentru gif */
+}
+
+/* ====== Alertă autentificare ====== */
+.auth-warning {
+  font-size: 14px;
+  text-align: center;
+}
+
+.login-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #4ECCA3;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 768px) {
+  .steps-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+}

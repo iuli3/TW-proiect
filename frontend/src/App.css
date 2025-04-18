@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchbar-wrapper {
+    margin-top: 80px; /* sau cât de înalt e header-ul */
+  }
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Rasa', system-ui;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.section-break {
+  height: 3px;
+  width: 70%;
+  margin: 60px auto;
+  background: linear-gradient(to right, #0A1828, #4ECCA3, #BFA181);
+  border: none;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+.view-events-section {
+  margin: 100px auto 80px;
+  text-align: center;
+  position: relative;
+}
+
+.view-events-button {
+  background-color: #0A1828;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 2px solid #0A1828;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  box-shadow: none;
+  text-transform: none;
+}
+
+.view-events-button:hover {
+  background-color: #ffffff;
+  color: #0A1828;
+  border: 2px solid #0A1828;
+  transform: none;
+}
+
+.view-events-divider-thin {
+  width: 80%;
+  height: 2px;
+  background: linear-gradient(to right, #4ECCA3, #BFA181);
+  margin: 0 auto 40px;
+  opacity: 0.5;
+}
+
+
+
+button, input, textarea, select {
+  font-family: 'Rasa', system-ui;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  margin-top: auto;
+}

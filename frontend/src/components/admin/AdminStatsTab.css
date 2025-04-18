@@ -1,0 +1,45 @@
+.admin-stats-dashboard {
+    padding: 2rem 1rem;
+  }
+  
+  .kpi-row .card {
+    border-left: 5px solid #4ECCA3;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .kpi-row .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .chart-box {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1rem;
+  }
+  
+  canvas {
+    max-height: 280px !important;
+    width: 100% !important;
+  }
+  
+  .sidebar-fixed {
+    width: 220px;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding-top: 1rem;
+  }
+  
+  .menu-item {
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .menu-item:hover,
+  .menu-item.active {
+    background-color: #e6f5f3;
+    font-weight: 500;
+  }
+  

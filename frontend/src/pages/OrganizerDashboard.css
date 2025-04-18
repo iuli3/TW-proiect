@@ -1,0 +1,17 @@
+.table-light {
+    background-color: #f9f9f9;
+  }
+  
+  .table-dark th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+  }

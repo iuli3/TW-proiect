@@ -1,0 +1,107 @@
+/* Layout general */
+.admin-dashboard {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Sidebar desktop */
+.sidebar-fixed {
+  width: 220px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+  padding-top: 1rem;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sidebar-fixed {
+    display: block;
+  }
+}
+
+/* Elemente din sidebar */
+.menu-item {
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: 500;
+  color: #0a1828;
+  border-left: 3px solid transparent;
+}
+
+.menu-item:hover {
+  background-color: #e9ecef;
+}
+
+.menu-item.active {
+  background-color: #d1f5ee;
+  border-left: 3px solid #4ecca3;
+  font-weight: 600;
+  color: #178582;
+}
+
+/* Buton ☰ plutitor doar pe mobil */
+.sidebar-toggle-floating {
+  position: fixed;
+  top: 100px;
+  left: 16px;
+  z-index: 1051;
+  background-color: #4ecca3;
+  border: none;
+  padding: 10px 14px;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .sidebar-toggle-floating {
+    display: none;
+  }
+}
+
+/* Zona principală */
+.main-content {
+  flex-grow: 1;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+/* Offcanvas stilizat pentru mobil */
+@media (max-width: 767px) {
+  .offcanvas-start {
+    background-color: #ffffff !important;
+  }
+
+  .offcanvas-header,
+  .offcanvas-body {
+    background-color: #ffffff !important;
+    color: #0a1828;
+  }
+
+  .offcanvas-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .offcanvas-body .menu-item {
+    background-color: transparent;
+    color: #0a1828;
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s;
+  }
+
+  .offcanvas-body .menu-item:hover {
+    background-color: #f1f1f1;
+  }
+
+  .offcanvas-body .menu-item.active {
+    background-color: #4ecca3;
+    color: white;
+    font-weight: bold;
+  }
+}

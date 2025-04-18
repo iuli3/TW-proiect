@@ -1,0 +1,62 @@
+/* Dropdown stil */
+.role-select {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 14px;
+    background-color: white;
+    color: #0A1828;
+    transition: border 0.2s ease-in-out;
+  }
+  
+  .role-select:focus {
+    border-color: #4ECCA3;
+    outline: none;
+    box-shadow: 0 0 0 0.15rem rgba(78, 204, 163, 0.25);
+  }
+  
+  .role-select option {
+    background-color: white;
+    color: #0A1828;
+  }
+  
+  .form-select:focus {
+    border-color: #4ECCA3 !important;
+    box-shadow: none !important;
+  }
+  
+  /* Buton negru */
+  .btn-view-events {
+    background-color: #000;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding: 5px 12px;
+  }
+  
+  .btn-view-events:hover {
+    background-color: #222;
+  }
+  
+  /* Buton roșu deschis */
+  .btn-delete-user {
+    background-color: #f27171;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 5px 12px;
+  }
+  
+  .btn-delete-user:hover {
+    background-color: #e35050;
+  }
+  
+  /* Responsive butoane */
+  @media (max-width: 576px) {
+    .btn-view-events,
+    .btn-delete-user {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

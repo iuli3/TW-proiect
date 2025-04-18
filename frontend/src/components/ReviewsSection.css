@@ -1,0 +1,72 @@
+/* 🧾 Card review stilizat */
+.review-card {
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  max-width: 580px;
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Nume utilizator */
+.review-card h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+/* Stele */
+.review-stars {
+  margin-bottom: 1rem;
+}
+
+/* Comentariu */
+.review-comment {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+  font-style: italic;
+  min-height: 48px;
+}
+
+/* Data */
+.review-date {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+/* Săgeți carousel mai apropiate */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.7;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #178582;
+  border-radius: 50%;
+  padding: 10px;
+  background-size: 70%;
+}
+
+.btn-turquoise {
+  background-color: #178582 !important;
+  color: white;
+  border: 2px solid #178582 !important;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-turquoise:hover {
+  background-color: white !important;
+  color: #178582;
+  border: 2px solid #178582;
+  transform: scale(1.03);
+}
